@@ -21,3 +21,17 @@ print(20*356)
 from datetime import datetime, timedelta
 age = datetime.now() - datetime.strptime("Sun, 4 fenruary 1996 12:00:32 +0200 ","%a, %d %b %Y %H:%M:%S +0200")
 print (age.days)
+
+#working with strings
+print('hello,world')
+print(' ')
+print('goodbye')
+print('i like '+ 'apple pie')
+print('12+12')
+print('12'+'12')
+
+print('you\'re swelling!')
+
+#back slashes
+my_string = 'you can say that again'
+print(my_string)
